@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ManagerScene.unity
+    guid: 274c4325a1a2e2e4cb9dd225b9b4b63f
+  - enabled: 1
+    path: Assets/Scenes/MapScene.unity
+    guid: 180023e1f0bc88a47b58faa6f95d9325
+  - enabled: 0
+    path: Assets/Scenes/InventoryScene.unity
+    guid: 54a0284776231d3488f20431810f658b
+  - enabled: 0
+    path: Assets/Scenes/DailyScene.unity
+    guid: 49f3d76a1860f5944b7a51c7157b4e19
+  - enabled: 0
+    path: Assets/Scenes/TavernScene.unity
+    guid: b57c0caa59a783343a15715a1950ac7d
+  - enabled: 0
+    path: Assets/Scenes/ArmoryScene.unity
+    guid: 5599464c59a4a2a42b6d6ae1f92fc0b0
+  - enabled: 1
+    path: Assets/Scenes/HomeScene.unity
+    guid: a9e196c6710ee3149a31be84fc5113dd
+  - enabled: 0
+    path: Assets/Scenes/HeroesScene.unity
+    guid: 97b8f3f5a8a0b6e47ab310ac60c3e3b8
+  - enabled: 0
+    path: Assets/Scenes/LevelUpScene.unity
+    guid: 01f329a6002e25b41a1dcf3e056433e4
+  - enabled: 0
+    path: Assets/Scenes/OfficerOverviewScene.unity
+    guid: 5a7c0714ed1a68646b164ab96961e54b
+  - enabled: 1
+    path: Assets/Scenes/UI.unity
+    guid: 048fdb7a866ea994e864c202ab38fdd9
+  - enabled: 0
+    path: Assets/Scenes/ShipsLogScene.unity
+    guid: 3ea7a2e7dd24b884d87ea3f75331c3c3
+  - enabled: 0
+    path: Assets/Scenes/TrainingHallScene.unity
+    guid: 5306c78585ec61547b73fb11660a567c
+  - enabled: 0
+    path: Assets/Scenes/RankingScene.unity
+    guid: 663abe718afcde943a05b2e5c7997a4c
+  - enabled: 0
+    path: Assets/Scenes/ShopScene.unity
+    guid: ac3d52ed1e713894bbb15ac888a63104
+  - enabled: 0
+    path: Assets/Scenes/BankScene.unity
+    guid: 4ccd6897581d7544cace9b6bccf594ef
+  m_configObjects: {}

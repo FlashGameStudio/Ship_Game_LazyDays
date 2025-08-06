@@ -1,0 +1,4802 @@
+[
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 22.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 23.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 20.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 21.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 18.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 19.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 16.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 17.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 14.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 15.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 12.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 13.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 10.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 11.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 8.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 9.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 6.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 7.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 4.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 5.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 2.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 3.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 1.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -2.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -1.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -4.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -3.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -6.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -5.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -8.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -7.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -10.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -9.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -12.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -11.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -14.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -13.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -16.0,
+      "y": 0.0,
+      "z": 24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -15.0,
+      "y": 0.0,
+      "z": 25.9499969
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 22.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 23.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 20.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 21.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 18.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 19.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 16.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 17.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 14.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 15.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 12.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 13.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 10.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 11.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 8.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 9.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 6.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 7.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 4.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 5.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 2.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 3.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 1.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -2.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -1.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -4.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -3.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -6.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -5.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -8.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -7.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -10.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -9.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -12.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -11.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -14.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -13.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -16.0,
+      "y": 0.0,
+      "z": 20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -15.0,
+      "y": 0.0,
+      "z": 22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 22.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 23.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 20.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 21.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 18.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 19.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 16.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 17.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 14.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 15.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 12.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 13.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 10.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 11.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 8.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 9.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 6.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 7.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 4.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 5.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 2.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 3.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 1.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -2.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -1.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -4.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -3.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -6.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -5.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -8.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -7.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -10.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -9.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -12.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -11.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -14.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -13.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -16.0,
+      "y": 0.0,
+      "z": 17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -15.0,
+      "y": 0.0,
+      "z": 19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 22.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 23.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 20.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 21.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 18.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 19.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 16.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 17.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 14.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 15.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 12.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 13.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 10.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 11.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 8.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 9.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 6.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 7.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 4.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 5.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 2.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 3.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 1.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -2.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -1.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -4.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -3.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -6.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -5.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -8.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -7.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -10.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -9.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -12.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -11.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -14.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -13.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -16.0,
+      "y": 0.0,
+      "z": 13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -15.0,
+      "y": 0.0,
+      "z": 15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 22.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 23.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 20.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 21.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 18.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 19.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 16.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 17.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 14.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 15.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 12.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 13.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 10.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 11.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 8.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 9.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 6.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 7.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 4.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 5.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 2.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 3.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 1.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -2.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -1.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -4.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -3.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -6.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -5.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -8.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -7.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -10.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -9.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -12.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -11.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -14.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -13.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -16.0,
+      "y": 0.0,
+      "z": 10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -15.0,
+      "y": 0.0,
+      "z": 12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 22.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 23.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 20.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 21.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 18.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 19.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 16.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 17.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 14.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 15.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 12.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 13.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 10.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 11.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 8.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 9.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 6.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 7.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 4.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 5.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 2.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 3.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 1.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -2.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -1.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -4.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -3.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -6.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -5.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -8.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -7.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -10.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -9.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -12.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -11.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -14.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -13.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -16.0,
+      "y": 0.0,
+      "z": 6.9199996
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -15.0,
+      "y": 0.0,
+      "z": 8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 22.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 23.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 20.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 21.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 18.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 19.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 16.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 17.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 14.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 15.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 12.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 13.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 10.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 11.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 8.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 9.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 6.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 7.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 4.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 5.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 2.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 3.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 1.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -2.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -1.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -4.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -3.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -6.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -5.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -8.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -7.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -10.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -9.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -12.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -11.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -14.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -13.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -16.0,
+      "y": 0.0,
+      "z": -24.2199974
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -15.0,
+      "y": 0.0,
+      "z": -22.4899979
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 22.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 23.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 20.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 21.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 18.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 19.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 16.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 17.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 14.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 15.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 12.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 13.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 10.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 11.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 8.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 9.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 6.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 7.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 4.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 5.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 2.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 3.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 1.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -2.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -1.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -4.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -3.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -6.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -5.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -8.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -7.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -10.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -9.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -12.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -11.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -14.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -13.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -16.0,
+      "y": 0.0,
+      "z": -20.7599983
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -15.0,
+      "y": 0.0,
+      "z": -19.0299988
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 22.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 23.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 20.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 21.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 18.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 19.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 16.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 17.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 14.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 15.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 12.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 13.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 10.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 11.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 8.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 9.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 6.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 7.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 4.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 5.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 2.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 3.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 1.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -2.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -1.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -4.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -3.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -6.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -5.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -8.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -7.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -10.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -9.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -12.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -11.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -14.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -13.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -16.0,
+      "y": 0.0,
+      "z": -17.3
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -15.0,
+      "y": 0.0,
+      "z": -15.57
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 22.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 23.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 20.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 21.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 18.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 19.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 16.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 17.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 14.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 15.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 12.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 13.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 10.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 11.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 8.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 9.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 6.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 7.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 4.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 5.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 2.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 3.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 1.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -2.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -1.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -4.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -3.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -6.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -5.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -8.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -7.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -10.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -9.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -12.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -11.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -14.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -13.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -16.0,
+      "y": 0.0,
+      "z": -13.84
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -15.0,
+      "y": 0.0,
+      "z": -12.11
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 22.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 23.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 20.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 21.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 18.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 19.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 16.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 17.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 14.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 15.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 12.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 13.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 10.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 11.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 8.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 9.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 6.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 7.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 4.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 5.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 2.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 3.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 1.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -2.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -1.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -4.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -3.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -6.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -5.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -8.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -7.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -10.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -9.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -12.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -11.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -14.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -13.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -16.0,
+      "y": 0.0,
+      "z": -10.3799992
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -15.0,
+      "y": 0.0,
+      "z": -8.65
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 22.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 23.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 20.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 21.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 18.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 19.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 16.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 17.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 14.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 15.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 12.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 13.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 10.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 11.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 8.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 9.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 6.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 7.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 4.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 5.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 2.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 3.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 1.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -2.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -1.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -4.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -3.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -6.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -5.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -8.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -7.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -10.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -9.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -12.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -11.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -14.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -13.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -16.0,
+      "y": 0.0,
+      "z": -6.92
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -15.0,
+      "y": 0.0,
+      "z": -5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 3.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 1.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 2.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 5.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexWaterRocks",
+    "TileCoords": {
+      "x": 3.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 3.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 4.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -2.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -14.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -13.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 7.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -14.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 19.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -4.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 1.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 10.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 16.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -11.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 20.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -8.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 6.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 20.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 22.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 17.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 1.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -6.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -9.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 10.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 6.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 14.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -14.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 14.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 8.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 22.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 2.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -5.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 19.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 13.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -9.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -3.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 5.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -6.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 6.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 8.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 23.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 13.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 23.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 18.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -15.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -16.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 21.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -13.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 7.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 4.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -5.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 21.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -16.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 20.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 19.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -9.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 23.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 2.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -8.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -15.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 10.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 15.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 12.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -3.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 17.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -15.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -7.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 17.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 11.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 4.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 11.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 16.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 12.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -4.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -11.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 18.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -13.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": -1.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 21.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 14.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 16.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -12.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 5.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 9.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -8.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 13.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -2.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 7.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -4.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 11.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -16.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -11.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 15.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 12.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -1.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 22.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": -1.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 9.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -2.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -7.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 8.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -12.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -10.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -3.0,
+      "y": 0.0,
+      "z": -1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -7.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -10.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 18.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -12.0,
+      "y": 0.0,
+      "z": 3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -5.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -6.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": 15.0,
+      "y": 0.0,
+      "z": 5.19
+    }
+  },
+  {
+    "TileName": "HexGrass",
+    "TileCoords": {
+      "x": 9.0,
+      "y": 0.0,
+      "z": 1.73
+    }
+  },
+  {
+    "TileName": "HexWater",
+    "TileCoords": {
+      "x": -10.0,
+      "y": 0.0,
+      "z": -3.46
+    }
+  }
+]
