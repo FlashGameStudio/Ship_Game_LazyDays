@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,7 +8,7 @@ public class ShipSpawner : MonoBehaviour
     [SerializeField] private HexGrid hexGrid;
     [SerializeField] private Unit myUnit;
     [SerializeField] private Vector3 offset = new Vector3(0, 1, 0);
-    [SerializeField] private Button[] shipButtons;
+    [SerializeField] private ShipMapButtonScript[] shipButtons;
     [SerializeField] private int[] waterTilesIndices;
     [SerializeField] private ShipRuntimeSetSO shipRuntimeSetSO;
 
@@ -16,16 +17,18 @@ public class ShipSpawner : MonoBehaviour
 
     void Start()
     {
-        shipButtons[0]?.onClick.AddListener(() => SpawnShipOnButton("1", 0));
-        shipButtons[1]?.onClick.AddListener(() => SpawnShipOnButton("2", 1, OnShipSpawned));
+        ShipMapButtonScript shipButton1 = shipButtons[0];
+        ShipMapButtonScript shipButton2 = shipButtons[1];
+        shipButton1?.Button?.onClick.AddListener(() => SpawnShipOnButton(shipButton1.shipID, 0));
+        shipButton2?.Button?.onClick.AddListener(() => SpawnShipOnButton(shipButton2.shipID, 1, OnShipSpawned));
         ActivateShipButtonEvent.Instance += OnActivateShip2Button;
         RestoreShipSession();
         RestoreOffSceneShipSession();
     }
     void OnDestroy()
     {
-        shipButtons[0]?.onClick.RemoveAllListeners();
-        shipButtons[1]?.onClick.RemoveAllListeners();
+        shipButtons[0]?.Button.onClick.RemoveAllListeners();
+        shipButtons[1]?.Button.onClick.RemoveAllListeners();
         ActivateShipButtonEvent.Instance -= OnActivateShip2Button;
     }
     private void OnShipSpawned(Transform shipPosition, string spawnFromShipID)
@@ -34,7 +37,8 @@ public class ShipSpawner : MonoBehaviour
     }
     private void OnActivateShip2Button()
     {
-        shipButtons[1].interactable = true;
+        if(shipButtons.Length > 0 && shipButtons[1].Button != null)
+        shipButtons[1].Button.interactable = true;
     }
     private void RestoreOffSceneShipSession()
     {
@@ -64,7 +68,7 @@ public class ShipSpawner : MonoBehaviour
             };
             if (data.shipButtonIndex < shipButtons.Length)
             {
-                shipButtons[data.shipButtonIndex].interactable = false;
+                shipButtons[data.shipButtonIndex].Button.interactable = false;
             }
             firstShipIndex = shipState.FirstShipIndex;
             var shipClone = SpawnShip(data);
@@ -90,7 +94,7 @@ public class ShipSpawner : MonoBehaviour
 
         spawnHeroEvent?.Invoke(shipClone.transform, shipID);
 
-        shipButtons[buttonIndex].interactable = false;
+        shipButtons[buttonIndex].Button.interactable = false;
         
         SetPlayerReferenceEvent.Instance?.Invoke(shipClone.transform, data.ShipID);
     }
@@ -123,7 +127,8 @@ public class ShipSpawner : MonoBehaviour
         {
             MovementStartTime = state.MovementStartTime,
             SpawnFromShipID = state.ShipID,
-            shipTransform = shipClone.transform
+            shipTransform = shipClone.transform,
+            TargetNpcID = state.TargetNpcID,
         };
         spawnHeroEvent?.Invoke(heroData);
         SetPlayerReferenceEvent.Instance?.Invoke(shipClone.transform, data.ShipID);
@@ -172,4 +177,5 @@ public class OffSceneHeroData
     public Transform shipTransform;
     public DateTime MovementStartTime;
     public string SpawnFromShipID;
+    public int TargetNpcID;
 }

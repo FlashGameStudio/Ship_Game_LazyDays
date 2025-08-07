@@ -6,16 +6,19 @@ using UnityEngine.SceneManagement;
 
 public class ShipHomeButtonScript : MonoBehaviour
 {
+    [SerializeField] private int npcID;
+    [SerializeField] private string shipID;
     [SerializeField] private int[] waterTilesIndices;
     public void CreateShip()
     {
         int randomTileIndex = GetRandomIndex();
         var offSceneState = new OffSceneShipSessionManager.OffSceneShipState
         {
-            ShipID = "2",
+            ShipID = shipID,
             MovementStartTime = DateTime.UtcNow,
             TileIndex = randomTileIndex,
             ShipButtonIndex = 2,
+            TargetNpcID = npcID,
         };
         OffSceneShipSessionManager.SetState(offSceneState.ShipID, offSceneState);
     }

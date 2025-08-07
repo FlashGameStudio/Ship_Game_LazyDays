@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 [SelectionBase]
 public class NPC : MonoBehaviour
 {
+    public int npcId;
     public int movementPoints = 0;
 
     public int positionIndex;
@@ -21,7 +22,7 @@ public class NPC : MonoBehaviour
     [SerializeField] NPCRuntimeSetSO runtimeSetSO;
 
 
-    private void Start()
+    private void Awake()
     {
         glowHighlight = GetComponent<GlowHighlight>();
         runtimeSetSO.AddItem(this);

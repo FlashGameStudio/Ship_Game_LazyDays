@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerAttackManager : MonoBehaviour
 {
-    private const string FIRST_SHIP_ID = "1";
+    [SerializeField] ShipMapButtonScript firstShipButton;
     [SerializeField] private HeroUnit heroPrefab;
     [SerializeField] private MovementSystem movementSystem;
     [SerializeField] private UnitManager unitManager;
@@ -36,17 +36,30 @@ public class PlayerAttackManager : MonoBehaviour
     }
     private void OnPlayerSpawned(Transform player,string shipID)
     {
-        if(shipID == FIRST_SHIP_ID)
+        if(shipID == firstShipButton.shipID)
         ship1Transform = player;
     }
     private void OnHeroSpawned(Transform spawnPoint, bool supportDestroyShip, string spawnFromShipID)
     {
-        SpawnHeroAttacker(spawnPoint, supportDestroyShip, spawnFromShipID);
+         HeroSpawnParameters spawnParameters = new HeroSpawnParameters
+        {
+            SpawnPoint = spawnPoint,
+            SupportDestroyShip = supportDestroyShip,
+            SpawnFromShipID = spawnFromShipID,
+            OffSceneHeroData = null,
+        };
+        SpawnHeroAttacker(spawnParameters);
     }
     private void OnOffSceneHeroSpawned(OffSceneHeroData offSceneHeroData)
     {
-        Transform spawnPoint = offSceneHeroData.shipTransform;
-        var offSceneHero = SpawnHeroAttacker(spawnPoint, true, offSceneHeroData.SpawnFromShipID);
+        HeroSpawnParameters spawnParameters = new HeroSpawnParameters
+        {
+            SpawnPoint = offSceneHeroData.shipTransform,
+            SpawnFromShipID = offSceneHeroData.SpawnFromShipID,
+            SupportDestroyShip = true,
+            OffSceneHeroData = offSceneHeroData
+        };
+        var offSceneHero = SpawnHeroAttacker(spawnParameters);
         offSceneHero.OverrideStartTimeForOffSceneHero(offSceneHeroData.MovementStartTime);
         offSceneHero.SaveSessionState();
         Destroy(offSceneHero.gameObject);
@@ -56,17 +69,27 @@ public class PlayerAttackManager : MonoBehaviour
     {
         ActivateAttackDialog(false);
         if (shipRuntimeSetSO == null || shipRuntimeSetSO.Items.Count == 0) return;
-        SpawnHeroAttacker(ship1Transform, false, "");
+        HeroSpawnParameters spawnParameters = new HeroSpawnParameters
+        {
+            SpawnPoint = ship1Transform,
+            SupportDestroyShip = false,
+            SpawnFromShipID = "",
+            OffSceneHeroData = null,
+        };
+        SpawnHeroAttacker(spawnParameters);
     }
     public void HideAttackDialog()
     {
         ActivateAttackDialog(false);
     }
-    private HeroUnit SpawnHeroAttacker(Transform spawnPoint, bool supportDestroyShip, string spawnFromShipID)
+    private HeroUnit SpawnHeroAttacker(HeroSpawnParameters spawnParameters)
     {
+        Transform spawnPoint = spawnParameters.SpawnPoint;
         var heroClone = Instantiate<HeroUnit>(heroPrefab, spawnPoint.position, spawnPoint.rotation, this.transform);
+        Vector3 targetNpcPosition = GetTargetNPC(heroClone.transform, spawnParameters.OffSceneHeroData);
+
         HeroData heroData = new HeroData();
-        heroData.CurrentPath = unitManager.CalculatePathForUnitToTarget(heroClone.transform.position, GetTargetNPC(heroClone.transform));
+        heroData.CurrentPath = unitManager.CalculatePathForUnitToTarget(heroClone.transform.position,targetNpcPosition);
         heroData.ReversePath = PrepareReversePath(heroData, spawnPoint);
         heroData.LineRendereRecallPath = PrepareReverseRecallLineRendererPath(heroData, spawnPoint);
         heroData.HeroID = Guid.NewGuid().ToString();
@@ -76,8 +99,8 @@ public class PlayerAttackManager : MonoBehaviour
         heroData.MovementDuration = movementDuration;
         heroData.AttackDuration = attackDuration;
         heroData.ShipPosition = spawnPoint.position;
-        heroData.CanDestroyShip = supportDestroyShip;
-        heroData.SpawnedFromShipID = spawnFromShipID;
+        heroData.CanDestroyShip = spawnParameters.SupportDestroyShip;
+        heroData.SpawnedFromShipID = spawnParameters.SpawnFromShipID;
 
         heroClone.Init(heroData);
         pathLineRenderer.DrawPath(heroData);
@@ -86,9 +109,11 @@ public class PlayerAttackManager : MonoBehaviour
         SetCameraTargetEvent.Instance?.Invoke(heroClone.transform, false);
         return heroClone;
     }
-    private Vector3 GetTargetNPC(Transform hero)
+    private Vector3 GetTargetNPC(Transform hero,OffSceneHeroData data = null)
     {
         if (unitManager.SelectedEnemy != null) return unitManager.SelectedEnemy.transform.position;
+
+        if (data != null) return GetNpcPositionWithId(data.TargetNpcID);
 
         float minDistance = float.MaxValue;
         NPC closestNPC = null;
@@ -104,7 +129,11 @@ public class PlayerAttackManager : MonoBehaviour
         }
         return closestNPC.transform.position;
     }
-    private List<Vector3Int> PrepareReversePath(HeroData heroData,Transform ship)
+    private Vector3 GetNpcPositionWithId(int id)
+    {
+        return npcRuntimeSetSO.Items.Find(x => x.npcId == id).transform.position;
+    }
+    private List<Vector3Int> PrepareReversePath(HeroData heroData, Transform ship)
     {
         List<Vector3Int> reversePathGrid = new List<Vector3Int>(heroData.CurrentPath);
         if (reversePathGrid.Count > 0)
@@ -133,4 +162,11 @@ public class PlayerAttackManager : MonoBehaviour
         MapSceneInitializer.AttackDialog.SetActive(value);
     }
    
+}
+public class HeroSpawnParameters
+{
+   public  Transform SpawnPoint;
+   public bool SupportDestroyShip;
+   public string SpawnFromShipID;
+   public OffSceneHeroData OffSceneHeroData;
 }

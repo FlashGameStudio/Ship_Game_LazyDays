@@ -10,6 +10,7 @@ public class OffSceneShipSessionManager : MonoBehaviour
         public int TileIndex;
         public int ShipButtonIndex;
         public DateTime MovementStartTime;
+        public int TargetNpcID;
 
     }
     private static Dictionary<string, OffSceneShipState> shipStates = new();

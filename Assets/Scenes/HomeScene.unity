@@ -19269,6 +19269,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65baaaf41c743402a8f46078f177558c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  npcID: 2
+  shipID: 2
   waterTilesIndices: ea010000ef010000f2010000
 --- !u!224 &6948964017777875308
 RectTransform:

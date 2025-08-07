@@ -95,7 +95,6 @@ public class HeroUnit : Unit
     {
         movementStartTime = newMovementStartTime;
     }
-
     private IEnumerator MoveAlongRotation(Queue<Vector3> pathPositions)
     {
         HeroData heroData = GetHeroData(HeroId);

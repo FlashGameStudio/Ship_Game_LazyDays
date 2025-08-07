@@ -6447,6 +6447,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcbe6e44e5e30214596f9537facb5c22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  npcId: 1
   movementPoints: 0
   positionIndex: 0
   authtoken: 
@@ -28797,6 +28798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ff88d845d876e8429b23b29dd09e1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  firstShipButton: {fileID: 2004218658}
   heroPrefab: {fileID: -4842034857784410301, guid: e1081e456b5aff246b10091959e745ae, type: 3}
   movementSystem: {fileID: 26321701}
   unitManager: {fileID: 1086879892}
@@ -28818,6 +28820,7 @@ GameObject:
   - component: {fileID: 1217747612}
   - component: {fileID: 1217747611}
   - component: {fileID: 1217747610}
+  - component: {fileID: 1217747614}
   m_Layer: 5
   m_Name: Ship 2 Button
   m_TagString: Untagged
@@ -28928,6 +28931,21 @@ RectTransform:
   m_AnchoredPosition: {x: 189, y: 637}
   m_SizeDelta: {x: 320, y: 177}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1217747614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217747609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ad6708ab2249d8a67d3338525fc1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shipID: 8
+  npcId: 2
+  Button: {fileID: 1217747610}
 --- !u!1 &1239423626
 GameObject:
   m_ObjectHideFlags: 0
@@ -29769,8 +29787,8 @@ MonoBehaviour:
   myUnit: {fileID: 5124974305002280296, guid: 93b733d1b692e50489ea32d735c94cd5, type: 3}
   offset: {x: 0, y: 1, z: 0}
   shipButtons:
-  - {fileID: 2004218655}
-  - {fileID: 1217747610}
+  - {fileID: 2004218658}
+  - {fileID: 1217747614}
   waterTilesIndices: ea010000ef010000f2010000
   shipRuntimeSetSO: {fileID: 0}
 --- !u!1 &1404454575
@@ -30413,6 +30431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcbe6e44e5e30214596f9537facb5c22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  npcId: 2
   movementPoints: 0
   positionIndex: 0
   authtoken: 
@@ -47309,6 +47328,7 @@ GameObject:
   - component: {fileID: 2004218657}
   - component: {fileID: 2004218656}
   - component: {fileID: 2004218655}
+  - component: {fileID: 2004218658}
   m_Layer: 5
   m_Name: Ship 1 Button
   m_TagString: Untagged
@@ -47419,6 +47439,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2004218653}
   m_CullTransparentMesh: 0
+--- !u!114 &2004218658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2004218653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ad6708ab2249d8a67d3338525fc1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shipID: 7
+  npcId: 1
+  Button: {fileID: 2004218655}
 --- !u!1 &2040804999
 GameObject:
   m_ObjectHideFlags: 0
