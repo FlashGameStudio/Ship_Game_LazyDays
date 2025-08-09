@@ -95,7 +95,7 @@ public class ShipSpawner : MonoBehaviour
         spawnHeroEvent?.Invoke(shipClone.transform, shipID);
 
         shipButtons[buttonIndex].Button.interactable = false;
-        
+
         SetPlayerReferenceEvent.Instance?.Invoke(shipClone.transform, data.ShipID);
     }
 

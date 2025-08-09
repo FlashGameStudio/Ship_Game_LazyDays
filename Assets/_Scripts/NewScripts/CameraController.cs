@@ -8,13 +8,17 @@ public class CameraController : MonoBehaviour
     [SerializeField] private UnitManager unitManager;
     [SerializeField] CinemachineCamera followCamera;
 
-    private Transform currentHeroTarget;
     private bool hasCameraDroped = false;
     private bool alreadyFollowing = false;
     private bool hasTargetAssigned = false;
+    
+    public CameraFollowShipController cameraFollowShipController;
+
+    public Transform CurrentHeroTarget { get; set; }
 
     void OnEnable()
     {
+        cameraFollowShipController.cameraController = this;
         SetCameraTargetEvent.Instance += OnHeroSpawned;
         ResetCameraFollowEvent.Instance += OnCameraReseted;
         SetPlayerReferenceEvent.Instance += OnPlayerSpawned;
@@ -25,12 +29,13 @@ public class CameraController : MonoBehaviour
         ResetCameraFollowEvent.Instance -= OnCameraReseted;
         SetPlayerReferenceEvent.Instance -= OnPlayerSpawned;
     }
-    private void OnPlayerSpawned(Transform player,string shipID)
+    private void OnPlayerSpawned(Transform player, string shipID)
     {
         myUnit = player;
-        if(hasTargetAssigned) return;
+        if (hasTargetAssigned) return;
         // Transform followTarget = GetGridUnderTheShip();
         followCamera.Follow = myUnit;
+        cameraFollowShipController.CameraPointingTile = null;
     }
     private Transform GetGridUnderTheShip()
     {
@@ -44,27 +49,29 @@ public class CameraController : MonoBehaviour
   
         if (hasCameraDroped && !followPlayerPanelBtnClicked) return;
 
-        if (target == null && currentHeroTarget != null) // droping camera by not assigning targhet
+        if (target == null && CurrentHeroTarget != null) // droping camera by not assigning targhet
         {
-            Vector3Int playerCordinates = hexGrid.GetClosestHex(currentHeroTarget.position);
+            Vector3Int playerCordinates = hexGrid.GetClosestHex(CurrentHeroTarget.position);
             Transform hexPosition = hexGrid.GetTileAt(playerCordinates).transform;
             followCamera.Follow = hexPosition;
             hasCameraDroped = true;
+            cameraFollowShipController.CameraPointingTile = hexPosition;
         }
         else if (target != null && !alreadyFollowing || followPlayerPanelBtnClicked)
         {
             followCamera.Follow = target;
-            currentHeroTarget = target;
+            CurrentHeroTarget = target;
             hasCameraDroped = false;
             alreadyFollowing = true;
             hasTargetAssigned = true;
+            cameraFollowShipController.CameraPointingTile = null;
             SaveCameraSession(target);
 
         }
     }
     private void OnCameraReseted()
     {
-        currentHeroTarget = null;
+        CurrentHeroTarget = null;
         hasCameraDroped = false;
         alreadyFollowing = false;
     }
