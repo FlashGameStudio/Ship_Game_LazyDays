@@ -5488,9 +5488,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7699ec922342d4ba385f8cb330a162fd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d70ecd82db6d7410690ae56bfc37b85b, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -5523,7 +5523,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 128, y: 128}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!1001 &186020603
 PrefabInstance:
@@ -22998,7 +22998,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 13}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &936087674
@@ -31091,6 +31091,7 @@ MonoBehaviour:
   pointingArrow: {fileID: 930918110}
   canvas: {fileID: 1336976463}
   cam: {fileID: 1798072418}
+  cameraPointingTransform: {fileID: 0}
 --- !u!1 &1571286717
 GameObject:
   m_ObjectHideFlags: 0
@@ -31184,7 +31185,6 @@ MonoBehaviour:
   myUnit: {fileID: 0}
   unitManager: {fileID: 1086879892}
   followCamera: {fileID: 1571286720}
-  cameraFollowShipController: {fileID: 1566736125}
 --- !u!114 &1571286723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53214,7 +53214,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: -71.22}
-  m_SizeDelta: {x: 145.7549, y: 124.46069}
+  m_SizeDelta: {x: 148, y: 155}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3358652864398404013
 GameObject:
@@ -53248,16 +53248,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8490566, g: 0.63885576, b: 0.020024916, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 62a40b9bbdf2fbd45aacda45e48f74ed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a37ec89f5ca17463ea97a831015fd5a1, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1

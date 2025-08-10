@@ -11,14 +11,11 @@ public class CameraController : MonoBehaviour
     private bool hasCameraDroped = false;
     private bool alreadyFollowing = false;
     private bool hasTargetAssigned = false;
-    
-    public CameraFollowShipController cameraFollowShipController;
 
     public Transform CurrentHeroTarget { get; set; }
 
     void OnEnable()
     {
-        cameraFollowShipController.cameraController = this;
         SetCameraTargetEvent.Instance += OnHeroSpawned;
         ResetCameraFollowEvent.Instance += OnCameraReseted;
         SetPlayerReferenceEvent.Instance += OnPlayerSpawned;
@@ -35,7 +32,6 @@ public class CameraController : MonoBehaviour
         if (hasTargetAssigned) return;
         // Transform followTarget = GetGridUnderTheShip();
         followCamera.Follow = myUnit;
-        cameraFollowShipController.CameraPointingTile = null;
     }
     private Transform GetGridUnderTheShip()
     {
@@ -49,13 +45,13 @@ public class CameraController : MonoBehaviour
   
         if (hasCameraDroped && !followPlayerPanelBtnClicked) return;
 
-        if (target == null && CurrentHeroTarget != null) // droping camera by not assigning targhet
+        if (target == null && CurrentHeroTarget != null && !CameraOnMainPlayer(CurrentHeroTarget))// droping camera by not assigning targhet
         {
             Vector3Int playerCordinates = hexGrid.GetClosestHex(CurrentHeroTarget.position);
             Transform hexPosition = hexGrid.GetTileAt(playerCordinates).transform;
             followCamera.Follow = hexPosition;
             hasCameraDroped = true;
-            cameraFollowShipController.CameraPointingTile = hexPosition;
+            SetCameraPoinitingTransformEvent.Instance?.Invoke(hexPosition);
         }
         else if (target != null && !alreadyFollowing || followPlayerPanelBtnClicked)
         {
@@ -64,10 +60,14 @@ public class CameraController : MonoBehaviour
             hasCameraDroped = false;
             alreadyFollowing = true;
             hasTargetAssigned = true;
-            cameraFollowShipController.CameraPointingTile = null;
+            SetCameraPoinitingTransformEvent.Instance?.Invoke(target);
             SaveCameraSession(target);
 
         }
+    }
+    private bool CameraOnMainPlayer(Transform currentTarget)
+    {
+        return currentTarget.GetComponent<ShipIndentifier>() != null;
     }
     private void OnCameraReseted()
     {

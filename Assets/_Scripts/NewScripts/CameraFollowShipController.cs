@@ -8,40 +8,40 @@ using UnityEngine.UI;
 public class CameraFollowShipController : MonoBehaviour
 {
     [SerializeField] private GameObject distanceUI;
-    [SerializeField] private string mainShipID = "8";
+    [SerializeField] private string mainShipID = "7";
     [SerializeField] private int minTileDistance = 3;
     [SerializeField] private Button cameraFollowTargetButton;
     [SerializeField] private TMP_Text tileDistanceText;
     [SerializeField] private RectTransform pointingArrow;
     [SerializeField] private Canvas canvas;
     [SerializeField] private Camera cam;
+
     private float tileDistanceFromShip;
-    Transform mainShip;
+    private Transform mainShip;
     private bool iconActivated;
-
-
-    public Transform CameraPointingTile { get; set; }
-    public CameraController cameraController { get; set; }
+    [SerializeField] Transform cameraPointingTransform;
     bool rotated = false;
 
     void OnEnable()
     {
         //distanceUI.SetActive(false);
         SetPlayerReferenceEvent.Instance += OnMainShipReferenceSet;
+        SetCameraPoinitingTransformEvent.Instance += OnCameraPointingTransformUpdated;
         cameraFollowTargetButton.onClick.AddListener(OnCameraFollowTargetButtonPressed);
 
     }
     void OnDisable()
     {
         SetPlayerReferenceEvent.Instance -= OnMainShipReferenceSet;
+        SetCameraPoinitingTransformEvent.Instance -= OnCameraPointingTransformUpdated;
         cameraFollowTargetButton.onClick.RemoveListener(OnCameraFollowTargetButtonPressed);
     }
     private void Update()
     {
-         PointArrowTowardsShip(mainShip);
-        if (CameraPointingTile == null || mainShip == null) return;
+        PointArrowTowardsShip(mainShip);
+        if (cameraPointingTransform == null || mainShip == null) return;
 
-        tileDistanceFromShip = GetDistance(mainShip, CameraPointingTile);
+        tileDistanceFromShip = GetDistance(mainShip, cameraPointingTransform);
         UpdateDistanceUI(tileDistanceFromShip);
 
         if (tileDistanceFromShip >= minTileDistance && !iconActivated)
@@ -49,6 +49,15 @@ public class CameraFollowShipController : MonoBehaviour
             iconActivated = true;
             distanceUI.SetActive(true);
         }
+        else if (tileDistanceFromShip < minTileDistance && iconActivated)
+        {
+            iconActivated = false;
+            distanceUI.SetActive(false);
+        }
+    }
+    private void OnCameraPointingTransformUpdated(Transform target)
+    {
+        cameraPointingTransform = target;
     }
     private float GetDistance(Transform mainShip, Transform cameraPointingTile)
     {
@@ -64,13 +73,13 @@ public class CameraFollowShipController : MonoBehaviour
     private void OnCameraFollowTargetButtonPressed()
     {
         SetCameraTargetEvent.Instance?.Invoke(mainShip, true);
+        ResetCameraFollowEvent.Instance?.Invoke();
         distanceUI.SetActive(false);
         iconActivated = false;
-        cameraController.CurrentHeroTarget = null;
     }
     private void UpdateDistanceUI(float distance)
     {
-        tileDistanceText.SetText(distance.ToString("F0"));
+        tileDistanceText.SetText($"{distance.ToString("F0")}m");
     }
     private void PointArrowTowardsShip(Transform mainShip)
     {
@@ -86,7 +95,7 @@ public class CameraFollowShipController : MonoBehaviour
             out Vector2 localPos
         );
 
-        
+
         Vector2 directionArrowToShip = localPos - (Vector2)pointingArrow.localPosition;
 
         float angle = Mathf.Atan2(directionArrowToShip.y, directionArrowToShip.x) * Mathf.Rad2Deg;
@@ -94,5 +103,9 @@ public class CameraFollowShipController : MonoBehaviour
         // Apply rotation (arrow points up by default)
         pointingArrow.localRotation = Quaternion.Euler(0, 0, angle - 90f);
     }
-    
+
+}
+public class SetCameraPoinitingTransformEvent
+{
+    public static Action<Transform> Instance;
 }
