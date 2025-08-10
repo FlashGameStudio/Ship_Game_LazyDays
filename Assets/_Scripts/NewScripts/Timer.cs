@@ -84,6 +84,10 @@ public class Timer : MonoBehaviour
         TimeSpan time = TimeSpan.FromSeconds(remainingTime);
         text?.SetText(time.ToString(@"hh\:mm\:ss"));
     }
+    public void ResetCounText(TMP_Text text)
+    {
+        text.SetText("00:00:00");
+    }
     // Runs the timer
     // Because a timer of 0 duration doesn't really make sense,
     // the timer only runs if the total seconds is larger than 0

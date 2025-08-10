@@ -29,6 +29,8 @@ public class HeroUnit : Unit
 
     private static Dictionary<string, HeroData> heroDataStates = new();
     private HexGrid hexGrid;
+
+    public HeroData CurrentHeroData { get; private set; }
     public void Init(HeroData heroData)
     {
         HeroId = heroData.HeroID;
@@ -51,6 +53,7 @@ public class HeroUnit : Unit
     }
     private void SetHeroData(HeroData heroData)
     {
+        CurrentHeroData = heroData;
         heroDataStates[HeroId] = heroData;
     }
     public HeroData GetHeroData(string id)
@@ -94,6 +97,11 @@ public class HeroUnit : Unit
     public void OverrideStartTimeForOffSceneHero(DateTime newMovementStartTime)
     {
         movementStartTime = newMovementStartTime;
+    }
+    public void OverrideTrackerTimeForOffSceneHero(HeroData heroData)
+    {
+        TrackerData data = GetUpdateTrackerData(heroData);
+        OffSceneHeroTimeTrackerSpawnEvent.Instance?.Invoke(data, this);
     }
     private IEnumerator MoveAlongRotation(Queue<Vector3> pathPositions)
     {
@@ -153,7 +161,8 @@ public class HeroUnit : Unit
             HeroID = heroData.HeroID,
             TileCount = heroData.CurrentPath.Count,
             MovementDuration = heroData.MovementDuration,
-            AttackDuration = heroData.AttackDuration
+            AttackDuration = heroData.AttackDuration,
+            MovementStartTime = movementStartTime
         };
         return newTrackerData;
     }

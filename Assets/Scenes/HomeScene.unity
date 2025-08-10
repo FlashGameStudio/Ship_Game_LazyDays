@@ -19271,7 +19271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcID: 2
   shipID: 2
-  waterTilesIndices: ea010000ef010000f2010000
+  waterTilesIndices: ea010000
 --- !u!224 &6948964017777875308
 RectTransform:
   m_ObjectHideFlags: 0

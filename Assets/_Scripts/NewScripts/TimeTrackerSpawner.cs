@@ -11,11 +11,13 @@ public class TimeTrackerSpawner : MonoBehaviour
     {
         TimeTrackerSpawnEvent.Instance += OnTimeTrackerSpawned;
         HeroUnit.ReachToBaseEvent += OnHeroReachBase;
+        OffSceneHeroTimeTrackerSpawnEvent.Instance += OnOffSceneTrackerSpawned;
     }
     private void OnDisable()
     {
         TimeTrackerSpawnEvent.Instance -= OnTimeTrackerSpawned;
         HeroUnit.ReachToBaseEvent -= OnHeroReachBase;
+        OffSceneHeroTimeTrackerSpawnEvent.Instance -= OnOffSceneTrackerSpawned;
     }
 
     private void OnTimeTrackerSpawned(TrackerData trackerData, HeroUnit heroUnit)
@@ -30,6 +32,21 @@ public class TimeTrackerSpawner : MonoBehaviour
         }
         var trackerClone = Instantiate<HeroDistanceTracker>(distanceTrackerPrefab, transform.position, Quaternion.identity, distanceTrackerParent);
         trackerClone.SetTime(trackerData,heroUnit);
+        HeroTimeTrackers[trackerClone.HeroID] = trackerClone;
+    }
+    private void OnOffSceneTrackerSpawned(TrackerData trackerData, HeroUnit heroUnit)
+    {
+        if (HeroTimeTrackers.TryGetValue(trackerData.HeroID, out var existingTracker))
+        {
+            if (trackerData.HeroID == heroUnit.HeroId)
+            {
+                existingTracker.TrackerHeroUnit = heroUnit;
+                existingTracker.SetTimeForOffSceneHero(trackerData, heroUnit);
+            }
+            return;
+        }
+        var trackerClone = Instantiate<HeroDistanceTracker>(distanceTrackerPrefab, transform.position, Quaternion.identity, distanceTrackerParent);
+        trackerClone.SetTimeForOffSceneHero(trackerData, heroUnit);
         HeroTimeTrackers[trackerClone.HeroID] = trackerClone;
     }
     private void OnHeroReachBase(HeroUnit hero)

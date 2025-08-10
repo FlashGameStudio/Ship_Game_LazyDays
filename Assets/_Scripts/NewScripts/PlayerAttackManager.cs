@@ -61,6 +61,7 @@ public class PlayerAttackManager : MonoBehaviour
         };
         var offSceneHero = SpawnHeroAttacker(spawnParameters);
         offSceneHero.OverrideStartTimeForOffSceneHero(offSceneHeroData.MovementStartTime);
+        offSceneHero.OverrideTrackerTimeForOffSceneHero(offSceneHero.CurrentHeroData);
         offSceneHero.SaveSessionState();
         Destroy(offSceneHero.gameObject);
         OffSceneHeroRestoreEvent.Instance?.Invoke();
