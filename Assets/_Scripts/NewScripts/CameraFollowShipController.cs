@@ -10,7 +10,7 @@ public class CameraFollowShipController : MonoBehaviour
     [SerializeField] private GameObject distanceUI;
     [SerializeField] private string mainShipID = "7";
     [SerializeField] private int minTileDistance = 3;
-    [SerializeField] private Button cameraFollowTargetButton;
+    [SerializeField] private Button shipFollowButton;
     [SerializeField] private TMP_Text tileDistanceText;
     [SerializeField] private RectTransform pointingArrow;
     [SerializeField] private Canvas canvas;
@@ -27,14 +27,14 @@ public class CameraFollowShipController : MonoBehaviour
         //distanceUI.SetActive(false);
         SetPlayerReferenceEvent.Instance += OnMainShipReferenceSet;
         SetCameraPoinitingTransformEvent.Instance += OnCameraPointingTransformUpdated;
-        cameraFollowTargetButton.onClick.AddListener(OnCameraFollowTargetButtonPressed);
+        shipFollowButton.onClick.AddListener(OnCameraFollowTargetButtonPressed);
 
     }
     void OnDisable()
     {
         SetPlayerReferenceEvent.Instance -= OnMainShipReferenceSet;
         SetCameraPoinitingTransformEvent.Instance -= OnCameraPointingTransformUpdated;
-        cameraFollowTargetButton.onClick.RemoveListener(OnCameraFollowTargetButtonPressed);
+        shipFollowButton.onClick.RemoveListener(OnCameraFollowTargetButtonPressed);
     }
     private void Update()
     {
